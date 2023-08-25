@@ -1,4 +1,7 @@
 name: "My CodeQL config"
 
 queries:
-    - uses: security-and-quality
+    - uses: ./custom-queries/code-scanning.qls
+
+paths-ignore:
+    - '**/test/**'
