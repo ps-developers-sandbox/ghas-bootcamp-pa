@@ -4,3 +4,4 @@ storage-service/target
 storage-service/.mvn
 *.iml
 .vscode/*
+db/*
